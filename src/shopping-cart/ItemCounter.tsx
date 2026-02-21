@@ -5,7 +5,7 @@ import styles from './ItemCounter.module.css';
 
 interface Props {
   name: string;
-  quantity: number | undefined;
+  quantity?: number;
 }
 
 export const ItemCounter = ({ name, quantity = 1 }: Props) => {
